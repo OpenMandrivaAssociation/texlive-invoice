@@ -1,3 +1,9 @@
+# revision 24194
+# category Package
+# catalog-ctan /macros/latex/contrib/invoice
+# catalog-date 2011-10-04 18:45:10 +0200
+# catalog-license gpl
+# catalog-version undef
 Name:		texlive-invoice
 Version:	20111004
 Release:	1
@@ -45,6 +51,7 @@ depends on the fp and calc packages for its calculations.
 %doc %{_texmfdistdir}/doc/latex/invoice/install
 %doc %{_texmfdistdir}/doc/latex/invoice/invoice.pdf
 %doc %{_texmfdistdir}/doc/latex/invoice/invoice.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -55,3 +62,5 @@ depends on the fp and calc packages for its calculations.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
