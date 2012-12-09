@@ -52,3 +52,17 @@ depends on the fp and calc packages for its calculations.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20111004-2
++ Revision: 752803
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20111004-1
++ Revision: 718729
+- texlive-invoice
+- texlive-invoice
+- texlive-invoice
+- texlive-invoice
+
