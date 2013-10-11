@@ -1,12 +1,12 @@
-# revision 24194
+# revision 31579
 # category Package
 # catalog-ctan /macros/latex/contrib/invoice
-# catalog-date 2011-10-04 18:45:10 +0200
+# catalog-date 2011-10-06 12:43:40 +0200
 # catalog-license gpl
 # catalog-version undef
 Name:		texlive-invoice
-Version:	20111004
-Release:	2
+Version:	20111006
+Release:	1
 Summary:	Generate invoices
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/invoice
@@ -52,17 +52,3 @@ depends on the fp and calc packages for its calculations.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20111004-2
-+ Revision: 752803
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20111004-1
-+ Revision: 718729
-- texlive-invoice
-- texlive-invoice
-- texlive-invoice
-- texlive-invoice
-
