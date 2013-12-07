@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-invoice
 Version:	20111006
-Release:	3
+Release:	4
 Summary:	Generate invoices
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/invoice
