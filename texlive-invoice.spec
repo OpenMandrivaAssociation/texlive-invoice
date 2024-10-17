@@ -3,7 +3,7 @@ Version:	48359
 Release:	2
 Summary:	Generate invoices
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/invoice
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/invoice
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/invoice.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/invoice.doc.r%{version}.tar.xz
